@@ -721,17 +721,7 @@ Schedule Page
 Speakers Page 
 ========================== 
 */
-@media only screen and (min-width: 30em) {
-  /* line 7, ../scss/pages/_speakers.scss */
-  #speakers {
-    background-color: violet;
-  }
-}
 @media only screen and (min-width: 40em) {
-  /* line 7, ../scss/pages/_speakers.scss */
-  #speakers {
-    background-color: red;
-  }
   /* line 25, ../scss/pages/_speakers.scss */
   #speakers .date {
     width: 50%;
@@ -746,34 +736,23 @@ Speakers Page
   }
 }
 @media only screen and (min-width: 50em) {
-  /* line 7, ../scss/pages/_speakers.scss */
-  #speakers {
-    background-color: green;
-  }
-  /* line 38, ../scss/pages/_speakers.scss */
-  #speakers .track.BW {
+  /* line 39, ../scss/pages/_speakers.scss */
+  #speakers .speaker {
     width: 50%;
     padding: 0 15px;
     float: left;
   }
 }
-@media only screen and (min-width: 67.5em) {
-  /* line 7, ../scss/pages/_speakers.scss */
-  #speakers {
-    background-color: yellow;
-  }
-}
 @media only screen and (min-width: 80em) {
   /* line 7, ../scss/pages/_speakers.scss */
   #speakers {
-    background-color: blue;
     color: white;
   }
-}
-@media only screen and (min-width: 90em) {
-  /* line 7, ../scss/pages/_speakers.scss */
-  #speakers {
-    background-color: orange;
+  /* line 59, ../scss/pages/_speakers.scss */
+  #speakers .speaker {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
   }
 }
 
