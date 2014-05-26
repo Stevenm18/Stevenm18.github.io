@@ -13,7 +13,7 @@ Speakers Page
 
   //x-small =============================================
   @include breakpoint(x-small){
-    background-color: violet;
+   // background-color: violet;
 
   }//end x-small breakpoint
 
@@ -21,7 +21,7 @@ Speakers Page
 
   //small =============================================
   @include breakpoint(small){
-    background-color: red;
+   // background-color: red;
     .date{
       @include col(1,2);
     }
@@ -34,8 +34,9 @@ Speakers Page
 
   //medium breakpoint =============================================
   @include breakpoint(medium){
-    background-color: green;
-    .track.BW{
+   // background-color: green;
+    //.track.BW{
+    .speaker{
       @include col(1,2);
     }
   }// end medium breakpoint
@@ -44,7 +45,7 @@ Speakers Page
 
   //large breakpoint =============================================
   @include breakpoint(large){
-    background-color: yellow;
+   // background-color: yellow;
 
   }//end large breakpoint
 
@@ -52,15 +53,19 @@ Speakers Page
 
   //x-large breakkpoint  =============================================
   @include breakpoint(x-large){
-    background-color: blue;
+   // background-color: blue;
     color: white;
+    
+    .speaker{
+      @include col(1,4);
+    }
 
   }//end xlarge breakpoint
 
 
   //xx-large breakpoint  =============================================
   @include breakpoint(xx-large){
-    background-color: orange;
+    // background-color: orange;
 
   }//end xxlarge breakpoint
 }
